@@ -1,4 +1,4 @@
-package com.tutorial.workingrecylerview.models
+package com.bongamnguni.weatherservices.restApi.CurrentWeather
 
 
 import com.google.gson.annotations.SerializedName

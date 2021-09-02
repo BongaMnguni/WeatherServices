@@ -9,6 +9,7 @@ import android.widget.*
 import androidx.recyclerview.widget.RecyclerView
 import com.bongamnguni.weatherservices.R
 import com.bongamnguni.weatherservices.database.Forecast
+
 import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.*

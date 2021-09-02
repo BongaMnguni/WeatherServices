@@ -1,8 +1,7 @@
-package com.bongamnguni.weather.database
+package com.bongamnguni.weatherservices.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.bongamnguni.weatherservices.database.CurrentWeather
 
 @Dao
 interface ForecastDao {
@@ -19,10 +18,16 @@ interface ForecastDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insertAllForecast(forest: Forecast)
 
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun insertFavorite(favoriteModel: FavoriteModel)
+
     @Query("SELECT * FROM forecast_table where id in (SELECT id FROM forecast_table ORDER BY id DESC LIMIT 5)")
     fun getAllForecast(): LiveData<List<Forecast>>
 
-    // CurrentWeather
+    @Query("SELECT * FROM favorite_table")
+    fun getAllFavorite(): LiveData<List<FavoriteModel>>
+
+    //2 CurrentWeather
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insertCurrentWeather(current: CurrentWeather)
 

@@ -1,4 +1,4 @@
-package com.bongamnguni.weather.restApi.ForecastWeather
+package com.bongamnguni.weatherservices.restApi.ForecastWeather
 import com.google.gson.annotations.SerializedName
 
 data class ForecastModel(

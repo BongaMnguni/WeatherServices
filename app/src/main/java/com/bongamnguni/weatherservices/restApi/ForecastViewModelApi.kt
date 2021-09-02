@@ -1,11 +1,10 @@
-package com.bongamnguni.weather.restApi
+package com.bongamnguni.weatherservices.restApi
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
-import com.bongamnguni.weather.restApi.ForecastWeather.ForecastModel
-import com.bongamnguni.weatherservices.restApi.ForecastWeatherRepository
+import com.bongamnguni.weatherservices.restApi.ForecastWeather.ForecastModel
 
 
 class ForecastViewModelApi : ViewModel(){

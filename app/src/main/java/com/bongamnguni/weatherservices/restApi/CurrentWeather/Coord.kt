@@ -1,4 +1,4 @@
-package com.bongamnguni.weather.restApi.CurrentWeather
+package com.bongamnguni.weatherservices.restApi.CurrentWeather
 
 
 data class Coord(

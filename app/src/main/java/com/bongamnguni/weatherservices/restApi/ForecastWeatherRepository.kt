@@ -1,7 +1,7 @@
 package com.bongamnguni.weatherservices.restApi
 
 import androidx.lifecycle.LiveData
-import com.bongamnguni.weather.restApi.ForecastWeather.ForecastModel
+import com.bongamnguni.weatherservices.restApi.ForecastWeather.ForecastModel
 import kotlinx.coroutines.*
 
 object ForecastWeatherRepository {

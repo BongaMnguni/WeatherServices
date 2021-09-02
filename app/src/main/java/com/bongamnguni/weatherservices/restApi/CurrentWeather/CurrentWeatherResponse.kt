@@ -1,7 +1,4 @@
-package com.bongamnguni.weather.restApi.CurrentWeather
-
-
-import com.tutorial.workingrecylerview.models.Wind
+package com.bongamnguni.weatherservices.restApi.CurrentWeather
 
 data class CurrentWeatherResponse(
     val base: String,

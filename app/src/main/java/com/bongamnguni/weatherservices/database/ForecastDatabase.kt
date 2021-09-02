@@ -2,14 +2,14 @@ package com.bongamnguni.weatherservices.database
 
 import android.content.Context
 import android.util.Log
+import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.bongamnguni.weather.database.Forecast
-import com.bongamnguni.weather.database.ForecastDao
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
+@Database(version = 1, entities = [Forecast::class, CurrentWeather::class , FavoriteModel::class], exportSchema = false)
 abstract class ForecastDatabase : RoomDatabase() {
 
     abstract fun forestDao(): ForecastDao

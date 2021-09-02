@@ -1,7 +1,7 @@
 package com.bongamnguni.weatherservices.restApi
 
 import androidx.lifecycle.LiveData
-import com.bongamnguni.weather.restApi.CurrentWeather.CurrentWeatherResponse
+import com.bongamnguni.weatherservices.restApi.CurrentWeather.CurrentWeatherResponse
 import kotlinx.coroutines.*
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.Dispatchers.Main

@@ -1,4 +1,4 @@
-package com.bongamnguni.weather.restApi
+package com.bongamnguni.weatherservices.restApi
 
 import android.content.Context
 import android.graphics.Bitmap

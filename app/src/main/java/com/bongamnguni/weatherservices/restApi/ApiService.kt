@@ -1,8 +1,7 @@
 package com.bongamnguni.weatherservices.restApi
 
-
-import com.bongamnguni.weather.restApi.CurrentWeather.CurrentWeatherResponse
-import com.bongamnguni.weather.restApi.ForecastWeather.ForecastModel
+import com.bongamnguni.weatherservices.restApi.CurrentWeather.CurrentWeatherResponse
+import com.bongamnguni.weatherservices.restApi.ForecastWeather.ForecastModel
 import com.bongamnguni.weatherservices.utils.Constants.Companion.API_KEY
 import retrofit2.http.GET
 import retrofit2.http.Query
